@@ -8,26 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		4439A80F2061E7D000EE21FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439A80E2061E7D000EE21FA /* AppDelegate.m */; };
-		4439A8122061E7D000EE21FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439A8112061E7D000EE21FA /* ViewController.m */; };
-		4439A8152061E7D000EE21FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4439A8132061E7D000EE21FA /* Main.storyboard */; };
 		4439A8182061E7D000EE21FA /* HJTaobaoDetail.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4439A8162061E7D000EE21FA /* HJTaobaoDetail.xcdatamodeld */; };
 		4439A81A2061E7D000EE21FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4439A8192061E7D000EE21FA /* Assets.xcassets */; };
 		4439A81D2061E7D000EE21FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4439A81B2061E7D000EE21FA /* LaunchScreen.storyboard */; };
 		4439A8202061E7D000EE21FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439A81F2061E7D000EE21FA /* main.m */; };
+		4439A8342061E95C00EE21FA /* BasicNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439A82B2061E95C00EE21FA /* BasicNavController.m */; };
+		4439A8352061E95C00EE21FA /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439A82D2061E95C00EE21FA /* MainTabBarController.m */; };
+		4439A8362061E95C00EE21FA /* WRCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439A8312061E95C00EE21FA /* WRCustomNavigationBar.m */; };
+		4439A8372061E95C00EE21FA /* WRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439A8332061E95C00EE21FA /* WRNavigationBar.m */; };
+		4439A83A2061E97200EE21FA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439A8392061E97200EE21FA /* BaseViewController.m */; };
+		4439A8402061EB9200EE21FA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439A83F2061EB9200EE21FA /* HomeViewController.m */; };
+		4439A84A2061F35300EE21FA /* HJDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439A8442061F35300EE21FA /* HJDetailViewController.m */; };
+		4439A84B2061F35300EE21FA /* HJDetailTopCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439A8472061F35300EE21FA /* HJDetailTopCollectionViewCell.m */; };
+		4439A84C2061F35300EE21FA /* HJDetailTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439A8492061F35300EE21FA /* HJDetailTopView.m */; };
+		4439A84F2061F39D00EE21FA /* HJBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439A84E2061F39D00EE21FA /* HJBaseTableView.m */; };
+		4439A8522061F3E500EE21FA /* HJLayoutBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4439A8512061F3E500EE21FA /* HJLayoutBtn.m */; };
+		59ACD36CD8FDDB7ED41F7E0A /* libPods-HJTaobaoDetail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7759AEB13D546A8D8FCDF5 /* libPods-HJTaobaoDetail.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FBEDA0776FFFB5E49103B0E /* Pods-HJTaobaoDetail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJTaobaoDetail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HJTaobaoDetail/Pods-HJTaobaoDetail.debug.xcconfig"; sourceTree = "<group>"; };
 		4439A80A2061E7D000EE21FA /* HJTaobaoDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJTaobaoDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4439A80D2061E7D000EE21FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4439A80E2061E7D000EE21FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4439A8102061E7D000EE21FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4439A8112061E7D000EE21FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4439A8142061E7D000EE21FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4439A8172061E7D000EE21FA /* HJTaobaoDetail.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HJTaobaoDetail.xcdatamodel; sourceTree = "<group>"; };
 		4439A8192061E7D000EE21FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4439A81C2061E7D000EE21FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4439A81E2061E7D000EE21FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4439A81F2061E7D000EE21FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4439A82A2061E95C00EE21FA /* BasicNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicNavController.h; sourceTree = "<group>"; };
+		4439A82B2061E95C00EE21FA /* BasicNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicNavController.m; sourceTree = "<group>"; };
+		4439A82C2061E95C00EE21FA /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		4439A82D2061E95C00EE21FA /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		4439A8302061E95C00EE21FA /* WRCustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRCustomNavigationBar.h; sourceTree = "<group>"; };
+		4439A8312061E95C00EE21FA /* WRCustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRCustomNavigationBar.m; sourceTree = "<group>"; };
+		4439A8322061E95C00EE21FA /* WRNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRNavigationBar.h; sourceTree = "<group>"; };
+		4439A8332061E95C00EE21FA /* WRNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRNavigationBar.m; sourceTree = "<group>"; };
+		4439A8382061E97200EE21FA /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		4439A8392061E97200EE21FA /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		4439A83C2061EA1000EE21FA /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		4439A83E2061EB9200EE21FA /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		4439A83F2061EB9200EE21FA /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		4439A8432061F35300EE21FA /* HJDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJDetailViewController.h; sourceTree = "<group>"; };
+		4439A8442061F35300EE21FA /* HJDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJDetailViewController.m; sourceTree = "<group>"; };
+		4439A8462061F35300EE21FA /* HJDetailTopCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJDetailTopCollectionViewCell.h; sourceTree = "<group>"; };
+		4439A8472061F35300EE21FA /* HJDetailTopCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJDetailTopCollectionViewCell.m; sourceTree = "<group>"; };
+		4439A8482061F35300EE21FA /* HJDetailTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJDetailTopView.h; sourceTree = "<group>"; };
+		4439A8492061F35300EE21FA /* HJDetailTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJDetailTopView.m; sourceTree = "<group>"; };
+		4439A84D2061F39D00EE21FA /* HJBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJBaseTableView.h; sourceTree = "<group>"; };
+		4439A84E2061F39D00EE21FA /* HJBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJBaseTableView.m; sourceTree = "<group>"; };
+		4439A8502061F3E500EE21FA /* HJLayoutBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJLayoutBtn.h; sourceTree = "<group>"; };
+		4439A8512061F3E500EE21FA /* HJLayoutBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJLayoutBtn.m; sourceTree = "<group>"; };
+		EC6D71D3816BEFD750F656D4 /* Pods-HJTaobaoDetail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJTaobaoDetail.release.xcconfig"; path = "Pods/Target Support Files/Pods-HJTaobaoDetail/Pods-HJTaobaoDetail.release.xcconfig"; sourceTree = "<group>"; };
+		EC7759AEB13D546A8D8FCDF5 /* libPods-HJTaobaoDetail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HJTaobaoDetail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59ACD36CD8FDDB7ED41F7E0A /* libPods-HJTaobaoDetail.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +80,8 @@
 			children = (
 				4439A80C2061E7D000EE21FA /* HJTaobaoDetail */,
 				4439A80B2061E7D000EE21FA /* Products */,
+				E8C42BE26750077C0D0F7C5C /* Pods */,
+				9239FA95936908C0A50BC882 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +96,9 @@
 		4439A80C2061E7D000EE21FA /* HJTaobaoDetail */ = {
 			isa = PBXGroup;
 			children = (
+				4439A8262061E88F00EE21FA /* Classes */,
 				4439A80D2061E7D000EE21FA /* AppDelegate.h */,
 				4439A80E2061E7D000EE21FA /* AppDelegate.m */,
-				4439A8102061E7D000EE21FA /* ViewController.h */,
-				4439A8112061E7D000EE21FA /* ViewController.m */,
-				4439A8132061E7D000EE21FA /* Main.storyboard */,
 				4439A8192061E7D000EE21FA /* Assets.xcassets */,
 				4439A81B2061E7D000EE21FA /* LaunchScreen.storyboard */,
 				4439A81E2061E7D000EE21FA /* Info.plist */,
@@ -74,6 +108,117 @@
 			path = HJTaobaoDetail;
 			sourceTree = "<group>";
 		};
+		4439A8262061E88F00EE21FA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4439A83D2061EB8100EE21FA /* Home */,
+				4439A83B2061E9FD00EE21FA /* Other */,
+				4439A8292061E95C00EE21FA /* Base */,
+				4439A82E2061E95C00EE21FA /* Tool */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4439A8292061E95C00EE21FA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4439A84D2061F39D00EE21FA /* HJBaseTableView.h */,
+				4439A84E2061F39D00EE21FA /* HJBaseTableView.m */,
+				4439A82A2061E95C00EE21FA /* BasicNavController.h */,
+				4439A82B2061E95C00EE21FA /* BasicNavController.m */,
+				4439A82C2061E95C00EE21FA /* MainTabBarController.h */,
+				4439A82D2061E95C00EE21FA /* MainTabBarController.m */,
+				4439A8382061E97200EE21FA /* BaseViewController.h */,
+				4439A8392061E97200EE21FA /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4439A82E2061E95C00EE21FA /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				4439A8502061F3E500EE21FA /* HJLayoutBtn.h */,
+				4439A8512061F3E500EE21FA /* HJLayoutBtn.m */,
+				4439A82F2061E95C00EE21FA /* WRNavigationBar */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		4439A82F2061E95C00EE21FA /* WRNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				4439A8302061E95C00EE21FA /* WRCustomNavigationBar.h */,
+				4439A8312061E95C00EE21FA /* WRCustomNavigationBar.m */,
+				4439A8322061E95C00EE21FA /* WRNavigationBar.h */,
+				4439A8332061E95C00EE21FA /* WRNavigationBar.m */,
+			);
+			path = WRNavigationBar;
+			sourceTree = "<group>";
+		};
+		4439A83B2061E9FD00EE21FA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4439A83C2061EA1000EE21FA /* Header.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		4439A83D2061EB8100EE21FA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4439A8412061F35300EE21FA /* 详情页 */,
+				4439A83E2061EB9200EE21FA /* HomeViewController.h */,
+				4439A83F2061EB9200EE21FA /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4439A8412061F35300EE21FA /* 详情页 */ = {
+			isa = PBXGroup;
+			children = (
+				4439A8422061F35300EE21FA /* controller */,
+				4439A8452061F35300EE21FA /* Views */,
+			);
+			path = "详情页";
+			sourceTree = "<group>";
+		};
+		4439A8422061F35300EE21FA /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4439A8432061F35300EE21FA /* HJDetailViewController.h */,
+				4439A8442061F35300EE21FA /* HJDetailViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4439A8452061F35300EE21FA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4439A8462061F35300EE21FA /* HJDetailTopCollectionViewCell.h */,
+				4439A8472061F35300EE21FA /* HJDetailTopCollectionViewCell.m */,
+				4439A8482061F35300EE21FA /* HJDetailTopView.h */,
+				4439A8492061F35300EE21FA /* HJDetailTopView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9239FA95936908C0A50BC882 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC7759AEB13D546A8D8FCDF5 /* libPods-HJTaobaoDetail.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8C42BE26750077C0D0F7C5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FBEDA0776FFFB5E49103B0E /* Pods-HJTaobaoDetail.debug.xcconfig */,
+				EC6D71D3816BEFD750F656D4 /* Pods-HJTaobaoDetail.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -81,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4439A8232061E7D000EE21FA /* Build configuration list for PBXNativeTarget "HJTaobaoDetail" */;
 			buildPhases = (
+				D7C282DFB39251795DF42E0F /* [CP] Check Pods Manifest.lock */,
 				4439A8062061E7D000EE21FA /* Sources */,
 				4439A8072061E7D000EE21FA /* Frameworks */,
 				4439A8082061E7D000EE21FA /* Resources */,
+				3E4B0804243581D3023EB091 /* [CP] Embed Pods Frameworks */,
+				65709506F243CD208B2884D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,35 +282,87 @@
 			files = (
 				4439A81D2061E7D000EE21FA /* LaunchScreen.storyboard in Resources */,
 				4439A81A2061E7D000EE21FA /* Assets.xcassets in Resources */,
-				4439A8152061E7D000EE21FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E4B0804243581D3023EB091 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HJTaobaoDetail/Pods-HJTaobaoDetail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65709506F243CD208B2884D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HJTaobaoDetail/Pods-HJTaobaoDetail-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7C282DFB39251795DF42E0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HJTaobaoDetail-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4439A8062061E7D000EE21FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4439A8122061E7D000EE21FA /* ViewController.m in Sources */,
+				4439A84F2061F39D00EE21FA /* HJBaseTableView.m in Sources */,
 				4439A80F2061E7D000EE21FA /* AppDelegate.m in Sources */,
+				4439A83A2061E97200EE21FA /* BaseViewController.m in Sources */,
+				4439A8352061E95C00EE21FA /* MainTabBarController.m in Sources */,
 				4439A8202061E7D000EE21FA /* main.m in Sources */,
+				4439A8372061E95C00EE21FA /* WRNavigationBar.m in Sources */,
+				4439A84A2061F35300EE21FA /* HJDetailViewController.m in Sources */,
+				4439A8402061EB9200EE21FA /* HomeViewController.m in Sources */,
+				4439A8522061F3E500EE21FA /* HJLayoutBtn.m in Sources */,
+				4439A8342061E95C00EE21FA /* BasicNavController.m in Sources */,
 				4439A8182061E7D000EE21FA /* HJTaobaoDetail.xcdatamodeld in Sources */,
+				4439A8362061E95C00EE21FA /* WRCustomNavigationBar.m in Sources */,
+				4439A84B2061F35300EE21FA /* HJDetailTopCollectionViewCell.m in Sources */,
+				4439A84C2061F35300EE21FA /* HJDetailTopView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4439A8132061E7D000EE21FA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4439A8142061E7D000EE21FA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4439A81B2061E7D000EE21FA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,9 +480,11 @@
 		};
 		4439A8242061E7D000EE21FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FBEDA0776FFFB5E49103B0E /* Pods-HJTaobaoDetail.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HJTaobaoDetail/Classes/Other/Header.h";
 				INFOPLIST_FILE = HJTaobaoDetail/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JR.HJTaobaoDetail;
@@ -293,9 +495,11 @@
 		};
 		4439A8252061E7D000EE21FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC6D71D3816BEFD750F656D4 /* Pods-HJTaobaoDetail.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HJTaobaoDetail/Classes/Other/Header.h";
 				INFOPLIST_FILE = HJTaobaoDetail/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JR.HJTaobaoDetail;
